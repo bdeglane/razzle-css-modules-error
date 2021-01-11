@@ -8,15 +8,15 @@ class Home extends React.Component {
     console.log(styles);
     return (
       <div className={styles.Home}>
-        <div className="Home-header">
-          <img src={logo} className="Home-logo" alt="logo" />
+        <div className={styles.HomeHeader}>
+          <img src={logo} className={styles.HomeLogo} alt="logo" />
           <h2>Welcome to Razzle</h2>
         </div>
-        <p className="Home-intro">
+        <p className={styles.HomeIntro}>
           To get started, edit <code>src/App.js</code> or{' '}
           <code>src/Home.js</code> and save to reload.
         </p>
-        <ul className="Home-resources">
+        <ul className={styles.HomeResources}>
           <li>
             <a href="https://github.com/jaredpalmer/razzle">Docs</a>
           </li>
